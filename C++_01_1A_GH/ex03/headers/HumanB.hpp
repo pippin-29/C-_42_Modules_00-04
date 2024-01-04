@@ -6,12 +6,16 @@
 /*   By: dhadding <operas.referee.0e@icloud.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/04 14:54:19 by dhadding          #+#    #+#             */
-/*   Updated: 2024/01/04 14:55:29 by dhadding         ###   ########.fr       */
+/*   Updated: 2024/01/05 08:30:45 by dhadding         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef __HUMANB_H__
 # define __HUMANB_H__
 
+class HumanB
+{
+	
+};
 
 #endif
