@@ -1,12 +1,12 @@
 NAME			:= BraiiiiiiinnnzzzZ
 
 SOURCE			:=  \
-					main.cpp \
-					Zombie.cpp \
-					newZombie.cpp \
-					randomChump.cpp
+					source/main.cpp \
+					source/Zombie.cpp \
+					source/newZombie.cpp \
+					source/randomChump.cpp
 
-COMPILE			:= c++ -stdc++98 -Wextra -Werror -Wall $(SOURCE) -o $(NAME)
+COMPILE			:= c++ -std=c++98 -Wextra -Werror -Wall $(SOURCE) -o $(NAME)
 
 all:
 				$(COMPILE)

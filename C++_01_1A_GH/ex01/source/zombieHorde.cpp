@@ -1,19 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   randomChump.hpp                                    :+:      :+:    :+:   */
+/*   zombieHorde.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dhadding <operas.referee.0e@icloud.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/04 09:02:26 by dhadding          #+#    #+#             */
-/*   Updated: 2024/01/04 09:12:12 by dhadding         ###   ########.fr       */
+/*   Created: 2024/01/04 13:38:40 by dhadding          #+#    #+#             */
+/*   Updated: 2024/01/04 14:37:14 by dhadding         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef __randomChump_H__
-# define __randomChump_H__
+# include "../headers/main.h"
 
-# include "main.h"
+Zombie* Zombie::zombieHorde(int N, std::string name) {
+   	std::cout << "A Wild Zombie Horde Appears!\n";
+	(void)(name);
+   
+    Zombie *horde = new Zombie[N];
 
-
-#endif
+    return horde;
+}

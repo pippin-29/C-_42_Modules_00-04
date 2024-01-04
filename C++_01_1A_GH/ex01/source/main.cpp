@@ -1,29 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.h                                             :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dhadding <operas.referee.0e@icloud.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/04 09:09:31 by dhadding          #+#    #+#             */
-/*   Updated: 2024/01/04 12:22:11 by dhadding         ###   ########.fr       */
+/*   Created: 2024/01/04 09:02:19 by dhadding          #+#    #+#             */
+/*   Updated: 2024/01/04 14:39:04 by dhadding         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef MAIN_H
-# define MAIN_H
+# include "../headers/main.h"
 
-/// MACRO SECTION ///
-# define ERROR 1
-# define SUCCESS 0
-# define MAIN_HEADER_PATH "../headers/main.h"
-///
+int main (void)
+{
+	int N = 50;
+	Zombie *horde;
 
-/// INCLUDE STATEMENTS ///
-# include <iostream>
-# include <string>
-# include <random>
-# include "Zombie.hpp"
-///
+	horde = NULL;
+	horde = Zombie::zombieHorde(N, "Horde");
+	
+	std::cout << "\n\n\n";
 
-#endif
+	delete[] horde;
+
+	return (0);
+}

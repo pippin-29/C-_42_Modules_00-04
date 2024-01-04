@@ -1,10 +1,14 @@
-NAME			:= 
+NAME			:= Moar_Brainz!
 
 SOURCE			:=  \
-					main.cpp \
+					source/main.cpp \
+					source/newZombie.cpp \
+					source/randomChump.cpp \
+					source/Zombie.cpp \
+					source/zombieHorde.cpp
 
 
-COMPILE			:= c++ -stdc++98 -Wextra -Werror -Wall $(SOURCE) -o $(NAME)
+COMPILE			:= c++ -std=c++98 -Wextra -Werror -Wall $(SOURCE) -o $(NAME) 
 
 all:
 				$(COMPILE)

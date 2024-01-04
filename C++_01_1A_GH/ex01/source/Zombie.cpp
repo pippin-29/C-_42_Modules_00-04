@@ -14,16 +14,18 @@
 
 Zombie::Zombie( std::string name ) : name(name) { announce(); }
 
+Zombie::Zombie( void ) : name(name_maker()) { announce(); }
+
+
 Zombie::~Zombie() 
 {
-	std::cout << this->name << " " << death_described();
+	std::cout << this->name << " " << death_described() << "\n";
 }
 
 void Zombie::announce( void )
 {
-	std::cout << this->name << " > BraiiiiiiinnnzzzZ...";
+	std::cout << this->name << " > BraiiiiiiinnnzzzZ...\n";
 }
-
 
 const std::string Zombie::name_list[10000] = 
 {

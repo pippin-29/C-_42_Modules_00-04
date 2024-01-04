@@ -1,10 +1,10 @@
-NAME			:= 
+NAME			:= HI_THIS_IS_BRAIN
 
 SOURCE			:=  \
 					main.cpp \
 
 
-COMPILE			:= c++ -stdc++98 -Wextra -Werror -Wall $(SOURCE) -o $(NAME)
+COMPILE			:= c++ -std=c++98 -Wextra -Werror -Wall $(SOURCE) -o $(NAME)
 
 all:
 				$(COMPILE)

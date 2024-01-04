@@ -1,19 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   newZombie.hpp                                      :+:      :+:    :+:   */
+/*   main.h                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dhadding <operas.referee.0e@icloud.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/04 09:02:28 by dhadding          #+#    #+#             */
-/*   Updated: 2024/01/04 09:12:15 by dhadding         ###   ########.fr       */
+/*   Created: 2024/01/04 09:09:31 by dhadding          #+#    #+#             */
+/*   Updated: 2024/01/04 12:22:11 by dhadding         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef __newZombie_H__
-# define __newZombie_H__
+#ifndef MAIN_H
+# define MAIN_H
 
-# include "main.h"
+/// MACRO SECTION ///
+# define ERROR 1
+# define SUCCESS 0
+# define MAIN_HEADER_PATH "../headers/main.h"
+///
 
+/// INCLUDE STATEMENTS ///
+# include <iostream>
+# include <string>
+# include <random>
+# include "Zombie.hpp"
+///
 
 #endif
